@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinelaLog | Enzo Leal</title>
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="sentinela.css">
+</head>
+<body>
+    <header>
+        <div class="texto">Portfolio Enzo Leal</div>
+        <nav class="pags" aria-label="Navegação principal">
+            <a href="index.html">Página Principal</a>
+            <a href="sobreMim.html">Sobre mim</a>
+            <a href="projetos.html">Projetos</a>
+        </nav>
+    </header>
+
+    <main class="sentinela-page">
+        <figure class="sentinela-hero">
+            <img src="assets/sentinelaLog.png" alt="Imagem ilustrativa do sistema de monitoramento SentinelaLog">
+        </figure>
+
+        <article class="sentinela-content">
+            <div class="project-heading">
+                <p class="eyebrow">PROJETO ACADÊMICO · FUNDAMENTOS DE PROGRAMAÇÃO</p>
+                <h1>🛡️ SentinelaLog</h1>
+                <p class="lead"><strong>Sistema de Controle de Acesso e Monitoramento de Segurança desenvolvido em Python.</strong></p>
+            </div>
+
+            <section>
+                <h2>Sobre o projeto</h2>
+                <p>O <strong>SentinelaLog</strong> é um sistema de controle de acessos desenvolvido em Python, executado diretamente pelo terminal. Seu objetivo é gerenciar usuários, registrar movimentações e auxiliar no monitoramento da segurança de ambientes, como laboratórios de informática. Tudo isso com a ajuda de uma IA integrada!</p>
+                <p>O sistema permite cadastrar usuários com diferentes níveis de permissão, acompanhar tentativas de acesso e manter registros de auditoria para facilitar a identificação de atividades suspeitas.</p>
+            </section>
+
+            <section>
+                <h2>Funcionalidades</h2>
+                <ul class="feature-list">
+                    <li><strong>Gerenciamento de usuários:</strong> cadastro, consulta, edição e exclusão de usuários.</li>
+                    <li><strong>Perfis de acesso:</strong> estudante, professor e administrador.</li>
+                    <li><strong>Controle de horários:</strong> definição dos horários permitidos para cada usuário.</li>
+                    <li><strong>Registro de acessos:</strong> armazenamento de data, horário, máquina utilizada e resultado da tentativa.</li>
+                    <li><strong>Análise de riscos:</strong> classificação dos acessos como normais, suspeitos ou críticos.</li>
+                    <li><strong>Bloqueio de máquinas:</strong> gerenciamento de máquinas bloqueadas.</li>
+                    <li><strong>Auditoria:</strong> registro de operações importantes realizadas no sistema.</li>
+                    <li><strong>Relatórios de segurança:</strong> apresentação de estatísticas sobre os acessos registrados.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Tecnologias utilizadas</h2>
+                <ul>
+                    <li><strong>Python 3</strong></li>
+                    <li>Bibliotecas nativas: <code>os</code>, <code>datetime</code>, <code>hashlib</code>, <code>secrets</code> e <code>getpass</code>.</li>
+                    <li>Arquivos CSV e TXT para armazenamento dos dados.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Como executar o projeto</h2>
+                <ol>
+                    <li>Instale o Python 3 em seu computador.</li>
+                    <li>Faça o download ou clone o repositório:</li>
+                </ol>
+                <pre><code>git clone https://github.com/TiagoOEmilio/Agente-ia-fp.git</code></pre>
+                <ol start="3">
+                    <li>Entre na pasta do projeto:</li>
+                </ol>
+                <pre><code>cd Agente-ia-fp</code></pre>
+                <ol start="4">
+                    <li>Execute o arquivo principal:</li>
+                </ol>
+                <pre><code>python main.py</code></pre>
+                <ol start="5">
+                    <li>Siga as opções apresentadas no menu do terminal.</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Estrutura do projeto</h2>
+                <pre class="file-tree"><code>Agente-ia-fp/
+│
+├── main.py          # Arquivo principal e menu do sistema
+├── funcoes.py       # Funções e regras de funcionamento
+├── usuarios.csv     # Dados dos usuários
+├── acessos.csv      # Histórico de acessos
+├── auditoria.csv    # Registros de auditoria
+├── bloqueados.txt   # Lista de máquinas bloqueadas
+└── README.md        # Documentação do projeto</code></pre>
+                <p class="note">Os arquivos de dados podem ser criados automaticamente durante a utilização do sistema.</p>
+            </section>
+
+            <section>
+                <h2>Objetivo acadêmico</h2>
+                <p>Este projeto foi desenvolvido como atividade acadêmica da disciplina de <strong>Fundamentos de Programação (FP)</strong>, com o objetivo de aplicar conhecimentos de Python, estruturas condicionais, repetição, funções, manipulação de arquivos e organização de programas.</p>
+            </section>
+
+            <section>
+                <h2>Integrantes do grupo</h2>
+                <ul class="members-list">
+                    <li>Tiago Oliveira Emilio</li>
+                    <li>Iago Xavier</li>
+                    <li>Enzo Leal</li>
+                    <li>Mateus Dias</li>
+                    <li>Fernando Furlan</li>
+                    <li>Francisco Bispo</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Informações do projeto</h2>
+                <p><strong>Disciplina:</strong> Fundamentos de Programação (FP)<br>
+                <strong>Linguagem:</strong> Python<br>
+                <strong>Instituição:</strong> CESAR School</p>
+            </section>
+
+            <div class="project-actions">
+                <a class="github-button" href="https://github.com/TiagoOEmilio/Agente-ia-fp" target="_blank" rel="noopener noreferrer">Ver projeto no GitHub ↗</a>
+                <a class="back-link" href="projetos.html">← Voltar para meus projetos</a>
+            </div>
+            <p class="closing-note">Desenvolvido por estudantes como parte de um projeto acadêmico.</p>
+        </article>
+    </main>
+</body>
+</html>

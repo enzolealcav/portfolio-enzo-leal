@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+  <rect width="1000" height="600" fill="#e7dfd2"/>
+  <rect x="120" y="105" width="760" height="390" rx="14" fill="#f5f1ea" stroke="#9a8167" stroke-width="5"/>
+  <circle cx="500" cy="250" r="76" fill="none" stroke="#9a8167" stroke-width="14"/>
+  <path d="M500 194v72l48 28" fill="none" stroke="#9a8167" stroke-width="14" stroke-linecap="round"/>
+  <text x="500" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" fill="#6f5945">SentinelaLog</text>
+  <text x="500" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#8a7762">TROQUE PELA IMAGEM DO PROJETO</text>
+</svg>

@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("assets/fundo-principal.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    color: #f0f5f9;
+    font-family: Tahoma, "MS Sans Serif", Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background-color: #1c0435;
+    padding: 2%;
+}
+
+.texto {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+a:link {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Tahoma, "MS Sans Serif", Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.pags {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.about-photo {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 24px;
+    padding: 0 14px;
+}
+
+.about-photo img {
+    display: block;
+    width: min(100%, 330px);
+    height: auto;
+    max-height: 460px;
+    object-fit: cover;
+    object-position: center 20%;
+    border: 3px solid #9b6bc3;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
+}
+
+.conteudo {
+    display: block;
+    width: min(820px, calc(100% - 36px));
+    margin: 0 auto;
+    padding: 24px 28px;
+    font-family: Tahoma, "MS Sans Serif", Verdana, sans-serif;
+    line-height: 1.6;
+    background: rgba(7, 3, 14, 0.82);
+    border: 1px solid rgba(174, 132, 207, 0.55);
+}
+
+.conteudo h2 {
+    color: #d3a8f2;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.conteudo p,
+.conteudo li {
+    font-size: 16px;
+}
+
+.spotify {
+    width: min(600px, calc(100% - 28px));
+    margin: 25px auto 40px;
+}
+
+.spotify iframe {
+    display: block;
+    width: 100%;
+    height: 352px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 12px;
+}
+
+@media (max-width: 650px) {
+    header {
+        display: block;
+        text-align: center;
+        padding: 16px 10px;
+    }
+
+    .texto {
+        text-align: center;
+        font-size: 21px;
+    }
+
+    .pags {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 12px;
+    }
+
+    .about-photo img {
+        width: min(85%, 300px);
+    }
+
+    .conteudo {
+        width: calc(100% - 24px);
+        padding: 18px;
+    }
+
+    .conteudo p,
+    .conteudo li {
+        font-size: 14px;
+    }
+}
