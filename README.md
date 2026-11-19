@@ -25,4 +25,4 @@ Portfólio pessoal desenvolvido com HTML, CSS e JavaScript.
 - `assets/windows-media-player.jpg`: moldura visual inspirada no Windows Media Player clássico.
 - `assets/fundo-principal.png`: imagem de fundo do site.
 
-O projeto utiliza HTML, CSS e JavaScript simples, sem frameworks.
+O projeto utiliza HTML, CSS e JavaScript simples, sem frameworks. Uso de IA para auxiliar em organização e redação de algumas partes.
